@@ -1,0 +1,39 @@
+/* custom */
+
+:root {
+  /* 主题颜色 */
+  --primary-color: #3cb490;
+  --van-tabbar-item-icon-size: 30px !important;
+  --van-search-left-icon-color: var(--primary-color) !important;
+  --van-tab-active-text-color: var(--primary-color) !important;
+  --van-tabs-bottom-bar-color: var(--primary-color) !important;
+  --van-tabs-line-height: 32px !important;
+  --van-tabs-bottom-bar-width: 40px !important;
+  --van-back-top-background: var(--primary-color) !important;
+  --van-calendar-popup-height: 60% !important;
+  --van-nav-bar-icon-color: var(--primary-color) !important;
+  --van-nav-bar-text-color: var(--primary-color) !important;
+  /* 渐变色 */
+  --theme-linear-gradient:linear-gradient(90deg,#3cb490,#72c19d);
+}
+
+body {
+  font-size: 14px;
+  height: 100%;
+  margin: 0;
+}
+
+/* 隐藏TabBar的类 */
+.bar-hidden {
+  /* 占满整个屏幕 */
+  height: 100vh;
+  /* 有position，z-index才生效
+   这里如果是absolute则不生效,可能与TabBar组件相关样式有关 */
+  position: relative;
+  /* TabBar的z-index默认1 */
+  z-index: 9;
+  /* 背景色挡住TabBar */
+  background-color: #fff;
+  /* y轴方向溢出:滚动条 */
+  overflow-y: auto;
+}
