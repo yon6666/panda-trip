@@ -61,7 +61,7 @@ npm run dev
 ## 首页
 ![Alt text](README_files/1.png)
 ![Alt text](README_files/8.jpg)
-
+![Alt text](README_files/2.jpg)
 ## 城市选择
 ![Alt text](README_files/4.jpg)
 ![Alt text](README_files/7.jpg)
